@@ -1,4 +1,4 @@
-def decompress_rle(comp):
+def decompresor(comp):
   count=0
   num=0
   decompressed=[]
@@ -11,4 +11,4 @@ def decompress_rle(comp):
         del comp[0:2]
   return decompressed
 
-decompress_rle([3, 1, 1, 3, 5, 7])
+decompressor([3, 1, 1, 3, 5, 7])
